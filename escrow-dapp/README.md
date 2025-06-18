@@ -1,21 +1,17 @@
-# 🔐 Escrow DApp (Decentralized Application)
+# Escrow DApp 💰
 
-A sleek and responsive **Escrow DApp UI** built with **React** and designed for secure, trustless transactions between Buyer, Seller, and Arbitrator. This is the front-end interface of a decentralized escrow system powered by smart contracts on the Ethereum blockchain.
+A decentralized application (DApp) that facilitates secure escrow transactions between two parties using smart contracts on the blockchain.
 
----
+![App Preview](./screenshot.png)
 
-## 🚀 Features
+## Features
+- Connect MetaMask wallet
+- Enter buyer, seller, and arbiter addresses
+- Deploy escrow contract
+- Simple and intuitive UI (dark mode)
 
-- 🌑 **Dark Themed UI** – User-friendly, accessible, and clean design
-- 👤 **Role-Based Interaction** – Supports Buyer, Seller, and Arbitrator views
-- 💱 **Secure Fund Locking** – Ether is locked until dispute-free confirmation
-- 🔎 **Status Feedback** – Real-time transaction and network status
-- 🦊 **MetaMask Integration** – Connect wallet and interact directly with the blockchain
-- ⚡ Built with **React**, **Ethers.js**, and **Hardhat**
-## 🛠️ How to Run Locally
-
-```bash
-git clone https://github.com/maliktoheed123/Escrow-Dapp.git
-cd Escrow-Dapp
-npm install
-npm start
+## Technologies Used
+- React.js
+- Ethereum Smart Contracts (Hardhat)
+- MetaMask
+- Ethers.js
